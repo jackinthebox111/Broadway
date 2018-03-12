@@ -1,6 +1,6 @@
 /* All text is Helvetica. */
 * {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 /*All text in the body (not footer) is centered.*/
@@ -11,7 +11,7 @@
 /*Styling for the home and about sections of the webpage.*/
 #home,
   #about {
-    background-image: url("C:/Users/timli/programming/web_dev/projects/Broadway/resources/images/the-flatiron-building.png");
+    background-image: url("../images/the-flatiron-building.png");
     color: white;
 }
 
