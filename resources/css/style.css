@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica;
+}
+
+#body {
+  text-align: center;
+}
+
+#home,
+  #about {
+    background-image: url("C:/Users/timli/programming/web_dev/projects/Broadway/resources/images/the-flatiron-building.png");
+    color: white;
+}
+
+.nav {
+  font-size: 18px;
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+#footer {
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+  text-align: left;
+}
