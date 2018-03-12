@@ -1,44 +1,60 @@
+/* All text is Helvetica. */
 * {
   font-family: Helvetica;
 }
 
+/*All text in the body (not footer) is centered.*/
 #body {
   text-align: center;
 }
 
+/*Styling for the home and about sections of the webpage.*/
 #home,
   #about {
     background-image: url("C:/Users/timli/programming/web_dev/projects/Broadway/resources/images/the-flatiron-building.png");
     color: white;
 }
 
+/*Styling for the nagigation button class.*/
 .nav {
   font-size: 18px;
   color: white;
 }
 
+/*heading 1 styling*/
 h1 {
   font-size: 70px;
   font-weight: bold;
 }
 
+/*heading 2 styling*/
 h2 {
   font-size: 32px;
   font-weight: bold;
 }
 
+/*heading 3 styling*/
 h3 {
   font-size: 23px;
   font-weight: bold;
 }
 
+/*paragraph styling*/
 p {
   font-size: 14px;
 }
 
+/*Apply styling to footer section.*/
 #footer {
   background-color: dimgray;
   color: white;
   font-size: 11px;
   text-align: left;
+}
+
+/*Apply styling to navigation buttons in footer.*/
+#footer .nav {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
 }
